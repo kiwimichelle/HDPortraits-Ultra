@@ -1,0 +1,33 @@
+{
+  "menu.title": "高清肖像 Ultra",
+  "menu.search": "搜索 NPC",
+  "menu.npcList": "NPC 列表",
+  "menu.currentPack": "当前包",
+  "menu.availablePacks": "可用包",
+  "menu.preview": "预览",
+  "menu.apply": "应用",
+  "menu.close": "关闭",
+  "menu.cancel": "取消",
+  "button.openMenu": "打开肖像菜单",
+  "info.packLoaded": "已加载 {0} 个头像包",
+  "info.packSwitched": "已将 {0} 的肖像切换为 {1}",
+  "error.packNotFound": "未找到头像包: {0}",
+  "error.npcNotFound": "未找到 NPC: {0}",
+  "error.invalidConfig": "配置文件无效"
+}{
+  "menu.title": "高清肖像 Ultra",
+  "menu.search": "搜索 NPC",
+  "menu.npcList": "NPC 列表",
+  "menu.currentPack": "当前包",
+  "menu.availablePacks": "可用包",
+  "menu.preview": "预览",
+  "menu.apply": "应用",
+  "menu.close": "关闭",
+  "menu.cancel": "取消",
+  "button.openMenu": "打开肖像菜单",
+  "info.packLoaded": "已加载 {0} 个头像包",
+  "info.packSwitched": "已将 {0} 的肖像切换为 {1}",
+  "error.packNotFound": "未找到头像包: {0}",
+  "error.npcNotFound": "未找到 NPC: {0}",
+  "error.invalidConfig": "配置文件无效"
+}
