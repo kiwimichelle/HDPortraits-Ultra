@@ -15,7 +15,7 @@ var hdPortraits = helper.ModRegistry.GetApi<IHDPortraitsAPI>("kiwimichelle.HDPor
 ### IHDPortraitsAPI
 
 ```csharp
-public interface IHDPortraitsAPI
+公共 interface IHDPortraitsAPI
 {
     /// <summary>
     /// 获取 NPC 当前使用的头像包
