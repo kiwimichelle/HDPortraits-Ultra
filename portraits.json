@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "packs": {
+    "Sam": {
+      "npc": "Sam",
+      "defaultResolution": "4x",
+      "portraits": [
+        {
+          "id": "default",
+          "baseFile": "assets/Sam/default/Sam",
+          "resolutions": ["2x", "4x", "8x"],
+          "conditions": {},
+          "priority": 0,
+          "metadata": {
+            "offsetX": 0,
+            "offsetY": 0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "cropMargin": 4,
+            "preserveAspectRatio": true
+          }
+        },
+        {
+          "id": "happy_summer",
+          "baseFile": "assets/Sam/happy/Sam_summer",
+          "resolutions": ["4x", "8x"],
+          "conditions": {
+            "emotion": "happy",
+            "season": ["summer"],
+            "hearts": {
+              "min": 4,
+              "max": 8
+            }
+          },
+          "priority": 100
+        },
+        {
+          "id": "rainy_mines_sad",
+          "baseFile": "assets/Sam/sad/Sam_rainy",
+          "resolutions": ["4x"],
+          "conditions": {
+            "weather": ["rainy", "stormy"],
+            "location": ["mines", "skull_cavern"],
+            "emotion": "sad"
+          },
+          "priority": 200
+        },
+        {
+          "id": "animated_blink",
+          "animation": {
+            "type": "frameSequence",
+            "frames": [
+              {
+                "file": "assets/Sam/animations/blink_frames/frame_0",
+                "duration": 100
+              },
+              {
+                "file": "assets/Sam/animations/blink_frames/frame_1",
+                "duration": 50
+              },
+              {
+                "file": "assets/Sam/animations/blink_frames/frame_0",
+                "duration": 100
+              }
+            ],
+            "loop": true,
+            "loopDelay": 3000
+          },
+          "conditions": {
+            "gameTime": {
+              "min": 600,
+              "max": 2600
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "emotion": ["happy", "neutral", "default"],
+        "weather": ["default"],
+        "location": ["default"],
+        "global": "default"
+      }
+    }
+  }
+}
