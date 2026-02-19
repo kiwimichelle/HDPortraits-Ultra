@@ -1,0 +1,11 @@
+{
+  "Hotkey": "P"，
+  "EnableAnimations": true,
+  "AutoScaleResolution": true,
+  "DefaultResolution": "4x",
+  "PreloadPortraits": true,
+  "CacheSize": 512,
+  "Language": "en",
+  "MaxAnimationFrames": 50,
+  "AnimationLoopDelay": 3000
+}
