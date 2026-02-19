@@ -1,0 +1,11 @@
+{
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "Name": "HD Portraits Ultra",
+  "Author": "kiwimichelle",
+  "Version": "1.0.0",
+  "Description": "Ultra HD portrait system with multi-pack support, real-time switching, and advanced condition system.",
+  "UniqueID": "kiwimichelle.HDPortraits.Ultra",
+  "EntryDll": "HDPortraitsUltra.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
