@@ -1,0 +1,17 @@
+{
+  "menu.title": "HD Portraits Ultra"，
+  "menu.search": "Search NPC",
+  "menu.npcList": "NPC List",
+  "menu.currentPack": "Current Pack",
+  "menu.availablePacks": "Available Packs",
+  "menu.preview": "Preview",
+  "menu.apply": "Apply",
+  "menu.close": "Close",
+  "menu.cancel": "Cancel",
+  "button.openMenu": "Open Portrait Menu",
+  "info.packLoaded": "Loaded {0} portrait packs",
+  "info.packSwitched": "Switched {0}'s portrait to {1}",
+  "error.packNotFound": "Portrait pack not found: {0}",
+  "error.npcNotFound": "NPC not found: {0}",
+  "error.invalidConfig": "Invalid configuration file"
+}
